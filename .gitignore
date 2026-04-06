@@ -1,2 +1,6 @@
-build/
+# ignore the build artifacts
+build/*
+# keep .gitkeep so that it is pushed to main
+!build/.gitkeep
+# ignore the ./main executable
 main
